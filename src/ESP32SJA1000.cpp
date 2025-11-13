@@ -3,7 +3,7 @@
 
 #ifdef ARDUINO_ARCH_ESP32
 
-#include "esp_intr.h"
+#include #include "rom/gpio.h"
 #include "soc/dport_reg.h"
 #include "driver/gpio.h"
 
